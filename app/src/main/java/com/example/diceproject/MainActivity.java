@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void rotateDice() {
-        int i = random.nextInt(5)+1;
+        int i = random.nextInt(5)+1; //TODO: formatting
 //      Animation anim = AnimationUtils.loadAnimation(this,R.anim.rotate);
 //        diceImage.startAnimation(anim);
-        switch (i){
+        switch (i){ //TODO: formatting should be followed [switch (i) {] you can use system shortcut ctrl+alt+l for formatting
             case 1:
                 diceImage.setImageResource(R.drawable.image1);
                 break;
